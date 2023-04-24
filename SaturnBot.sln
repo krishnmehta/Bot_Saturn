@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaturnBot", "SaturnBot\SaturnBot.csproj", "{BD58AF45-F064-48A9-8875-15B6442B7F57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD58AF45-F064-48A9-8875-15B6442B7F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD58AF45-F064-48A9-8875-15B6442B7F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD58AF45-F064-48A9-8875-15B6442B7F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD58AF45-F064-48A9-8875-15B6442B7F57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05BFCE3D-1045-4758-AD6E-C87ED4014369}
+	EndGlobalSection
+EndGlobal

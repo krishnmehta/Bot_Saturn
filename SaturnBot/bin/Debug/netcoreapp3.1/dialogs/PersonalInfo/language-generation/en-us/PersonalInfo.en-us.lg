@@ -1,0 +1,80 @@
+[import](common.lg)
+
+# TextInput_Prompt_I5QaW5()
+[Activity
+    Text = ${TextInput_Prompt_I5QaW5_text()}
+]
+
+# TextInput_Prompt_I5QaW5_text()
+- What's Your First Name?
+# TextInput_Prompt_gjh4VA()
+[Activity
+    Text = ${TextInput_Prompt_gjh4VA_text()}
+]
+
+# TextInput_Prompt_gjh4VA_text()
+- What's Your Last Name?
+# SendActivity_V7DKUk()
+[Activity
+    Text = ${SendActivity_V7DKUk_text()}
+]
+
+# SendActivity_V7DKUk_text()
+- ```Great! ${user.firstname} ${user.lastname}
+Now I will ask some personal information```
+# TextInput_Prompt_rKuz8p()
+[Activity
+    Text = ${TextInput_Prompt_rKuz8p_text()}
+]
+
+# TextInput_Prompt_rKuz8p_text()
+- What's Your Email?
+# TextInput_Prompt_VdKIBz()
+[Activity
+    Text = ${TextInput_Prompt_VdKIBz_text()}
+]
+
+# TextInput_Prompt_VdKIBz_text()
+- Where's Your Company Headquarter Located?
+# NumberInput_Prompt_DKEIwL()
+[Activity
+    Text = ${NumberInput_Prompt_DKEIwL_text()}
+]
+
+# NumberInput_Prompt_DKEIwL_text()
+- What's Your Contact Number?
+# TextInput_Prompt_3saTEx()
+[Activity
+    Text = ${TextInput_Prompt_3saTEx_text()}
+]
+
+# TextInput_Prompt_3saTEx_text()
+- What's Your Professional Summary?
+# ChoiceInput_Prompt_OnaSSb()
+[Activity
+    Text = ${ChoiceInput_Prompt_OnaSSb_text()}
+]
+
+# ChoiceInput_Prompt_OnaSSb_text()
+- Are You Owner/Employee
+# SendActivity_WgkfUB()
+[Activity
+    Text = ${SendActivity_WgkfUB_text()}
+]
+
+# SendActivity_WgkfUB_text()
+- You are ${user.position}
+# ChoiceInput_Prompt_YvcNDu()
+[Activity
+    Text = ${ChoiceInput_Prompt_YvcNDu_text()}
+]
+
+# ChoiceInput_Prompt_YvcNDu_text()
+- What's Your Comptency?
+# SendActivity_ajvENR()
+[Activity
+    Text = ${SendActivity_ajvENR_text()}
+]
+
+# SendActivity_ajvENR_text()
+- Great You have completed personal info form

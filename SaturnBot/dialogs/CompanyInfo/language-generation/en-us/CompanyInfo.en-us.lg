@@ -1,0 +1,51 @@
+[import](common.lg)
+
+# SendActivity_53YlrA()
+[Activity
+    Text = ${SendActivity_53YlrA_text()}
+]
+
+# SendActivity_53YlrA_text()
+- Let's set up your company info
+# TextInput_Prompt_COUd7k()
+[Activity
+    Text = ${TextInput_Prompt_COUd7k_text()}
+]
+
+# TextInput_Prompt_COUd7k_text()
+- Describle Your Business in Brief
+# TextInput_Prompt_o1VTQG()
+[Activity
+    Text = ${TextInput_Prompt_o1VTQG_text()}
+]
+
+# TextInput_Prompt_o1VTQG_text()
+- Your Company Website
+# ChoiceInput_Prompt_UuEKwx()
+[Activity
+    Text = ${ChoiceInput_Prompt_UuEKwx_text()}
+]
+
+# ChoiceInput_Prompt_UuEKwx_text()
+- Please Enter Nature of Business Activities
+# ChoiceInput_Prompt_eBOKl1()
+[Activity
+    Text = ${ChoiceInput_Prompt_eBOKl1_text()}
+]
+
+# ChoiceInput_Prompt_eBOKl1_text()
+- Please select Primary Industry
+# ChoiceInput_Prompt_Mja6Yt()
+[Activity
+    Text = ${ChoiceInput_Prompt_Mja6Yt_text()}
+]
+
+# ChoiceInput_Prompt_Mja6Yt_text()
+- Please select Secondary Industry
+# ChoiceInput_Prompt_ErYfkW()
+[Activity
+    Text = ${ChoiceInput_Prompt_ErYfkW_text()}
+]
+
+# ChoiceInput_Prompt_ErYfkW_text()
+- Primary End Customers being Served
