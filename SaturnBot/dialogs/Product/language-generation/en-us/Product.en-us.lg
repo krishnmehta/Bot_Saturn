@@ -1,0 +1,51 @@
+[import](common.lg)
+
+# TextInput_Prompt_QVgca4()
+[Activity
+    Text = ${TextInput_Prompt_QVgca4_text()}
+]
+
+# TextInput_Prompt_QVgca4_text()
+- Enter your Product Name
+# TextInput_Prompt_waERfU()
+[Activity
+    Text = ${TextInput_Prompt_waERfU_text()}
+]
+
+# TextInput_Prompt_waERfU_text()
+- Enter Category of your product
+# NumberInput_Prompt_Tuf7qo()
+[Activity
+    Text = ${NumberInput_Prompt_Tuf7qo_text()}
+]
+
+# NumberInput_Prompt_Tuf7qo_text()
+- Enter it's Revenue(In Cr) for Fy ${year(utcNow())} 
+# NumberInput_Prompt_I0ocBe()
+[Activity
+    Text = ${NumberInput_Prompt_I0ocBe_text()}
+]
+
+# NumberInput_Prompt_I0ocBe_text()
+- Enter it's Revenue(In Cr) for Fy ${int(year(utcNow()))-1}
+# NumberInput_Prompt_xzZ4Q2()
+[Activity
+    Text = ${NumberInput_Prompt_xzZ4Q2_text()}
+]
+
+# NumberInput_Prompt_xzZ4Q2_text()
+- Enter it's Revenue(In Cr) for Fy ${int(year(utcNow()))-2}
+# TextInput_Prompt_wqYBKf()
+[Activity
+    Text = ${TextInput_Prompt_wqYBKf_text()}
+]
+
+# TextInput_Prompt_wqYBKf_text()
+- Do you want to Enter more Product (Yes/No)
+# SendActivity_Qr18x1()
+[Activity
+    Text = ${SendActivity_Qr18x1_text()}
+]
+
+# SendActivity_Qr18x1_text()
+- ${dialog.foreach.index}: ${dialog.foreach.value}

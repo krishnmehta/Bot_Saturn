@@ -1,0 +1,23 @@
+[import](common.lg)
+
+# NumberInput_Prompt_HCUJEU()
+[Activity
+    Text = ${NumberInput_Prompt_HCUJEU_text()}
+]
+
+# NumberInput_Prompt_HCUJEU_text()
+- What's your Revenue(In Cr) for Fy ${year(utcNow())}
+# NumberInput_Prompt_1f8JPB()
+[Activity
+    Text = ${NumberInput_Prompt_1f8JPB_text()}
+]
+
+# NumberInput_Prompt_1f8JPB_text()
+- What's your Revenue(In Cr) for Fy ${int(year(utcNow()))-1}
+# NumberInput_Prompt_kPgc4m()
+[Activity
+    Text = ${NumberInput_Prompt_kPgc4m_text()}
+]
+
+# NumberInput_Prompt_kPgc4m_text()
+- What's your Revenue(In Cr) for Fy ${int(year(utcNow()))-2}

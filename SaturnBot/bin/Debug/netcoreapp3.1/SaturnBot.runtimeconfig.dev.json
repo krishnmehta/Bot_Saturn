@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\promact\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\promact\\.nuget\\packages"
+      "C:\\Users\\krishn\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\krishn\\.nuget\\packages"
     ]
   }
 }

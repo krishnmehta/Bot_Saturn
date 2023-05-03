@@ -54,6 +54,14 @@
           "property": "user.website"
         },
         {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "KKmcQ6"
+          },
+          "activityProcessed": true,
+          "dialog": "Revenue"
+        },
+        {
           "$kind": "Microsoft.ChoiceInput",
           "$designer": {
             "id": "UuEKwx"
@@ -68,13 +76,17 @@
           "invalidPrompt": "",
           "defaultValueResponse": "",
           "choiceOptions": {
-            "includeNumbers": true
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
           },
           "choices": [
             "Manufacturing",
             "Trading",
             "Services"
-          ]
+          ],
+          "property": "user.businessActivities"
         },
         {
           "$kind": "Microsoft.ChoiceInput",
@@ -91,12 +103,14 @@
           "invalidPrompt": "",
           "defaultValueResponse": "",
           "choiceOptions": {
-            "includeNumbers": true
+            "includeNumbers": true,
+            "inlineOrMore": ", or "
           },
           "choices": [
             "Agriculture",
             "Industrial Products"
-          ]
+          ],
+          "property": "user.primaryIndustry"
         },
         {
           "$kind": "Microsoft.ChoiceInput",
@@ -113,12 +127,15 @@
           "invalidPrompt": "",
           "defaultValueResponse": "",
           "choiceOptions": {
-            "includeNumbers": true
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or "
           },
           "choices": [
             "Fertilizer",
             "Vegetables"
-          ]
+          ],
+          "property": "user.secondaryIndustry"
         },
         {
           "$kind": "Microsoft.ChoiceInput",
@@ -135,13 +152,37 @@
           "invalidPrompt": "",
           "defaultValueResponse": "",
           "choiceOptions": {
-            "includeNumbers": true
+            "includeNumbers": true,
+            "inlineOrMore": ", or "
           },
           "choices": [
             "Business",
             "Consumer",
             "Government"
-          ]
+          ],
+          "property": "user.primaryCustomer"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "XywLIF"
+          },
+          "activity": "${SendActivity_XywLIF()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "yG03PD"
+          },
+          "activityProcessed": true,
+          "dialog": "Product"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "BdiFzI"
+          },
+          "activity": "${SendActivity_BdiFzI()}"
         }
       ]
     }

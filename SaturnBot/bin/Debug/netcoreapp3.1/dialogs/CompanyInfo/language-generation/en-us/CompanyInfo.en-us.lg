@@ -49,3 +49,17 @@
 
 # ChoiceInput_Prompt_ErYfkW_text()
 - Primary End Customers being Served
+# SendActivity_XywLIF()
+[Activity
+    Text = ${SendActivity_XywLIF_text()}
+]
+
+# SendActivity_XywLIF_text()
+- Great Now I will some details related to your top product
+# SendActivity_BdiFzI()
+[Activity
+    Text = ${SendActivity_BdiFzI_text()}
+]
+
+# SendActivity_BdiFzI_text()
+- Now I will ask details of your customer/distributors
