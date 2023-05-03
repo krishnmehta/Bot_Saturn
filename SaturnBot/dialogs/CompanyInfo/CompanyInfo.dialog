@@ -183,6 +183,14 @@
             "id": "BdiFzI"
           },
           "activity": "${SendActivity_BdiFzI()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "2Dooiw"
+          },
+          "activityProcessed": true,
+          "dialog": "Customer"
         }
       ]
     }

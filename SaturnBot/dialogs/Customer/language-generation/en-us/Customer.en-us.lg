@@ -1,0 +1,44 @@
+[import](common.lg)
+
+# TextInput_Prompt_MjrNHp()
+[Activity
+    Text = ${TextInput_Prompt_MjrNHp_text()}
+]
+
+# TextInput_Prompt_MjrNHp_text()
+- Enter Customer Name
+# TextInput_Prompt_8pPlRk()
+[Activity
+    Text = ${TextInput_Prompt_8pPlRk_text()}
+]
+
+# TextInput_Prompt_8pPlRk_text()
+- Enter Customer Category (Customers/Distributors)
+# NumberInput_Prompt_Fav2xE()
+[Activity
+    Text = ${NumberInput_Prompt_Fav2xE_text()}
+]
+
+# NumberInput_Prompt_Fav2xE_text()
+- Enter revenue (In Cr) for Fy ${year(utcNow())}
+# NumberInput_Prompt_aavyd3()
+[Activity
+    Text = ${NumberInput_Prompt_aavyd3_text()}
+]
+
+# NumberInput_Prompt_aavyd3_text()
+- Enter revenue (In Cr) for Fy ${int(year(utcNow()))-1}
+# NumberInput_Prompt_BPZSql()
+[Activity
+    Text = ${NumberInput_Prompt_BPZSql_text()}
+]
+
+# NumberInput_Prompt_BPZSql_text()
+- Enter revenue (In Cr) for Fy ${int(year(utcNow()))-2}
+# TextInput_Prompt_51Rhb1()
+[Activity
+    Text = ${TextInput_Prompt_51Rhb1_text()}
+]
+
+# TextInput_Prompt_51Rhb1_text()
+- Do you want to add more customer Name (Yes/No)
